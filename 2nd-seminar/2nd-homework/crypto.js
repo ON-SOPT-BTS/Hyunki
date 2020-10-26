@@ -1,7 +1,7 @@
 const fs = require('fs');
 const crypto = require('crypto');
 
-const password = 'qwerty';
+const password = 'asdf';
 
 const encrypt = (password) => {
   crypto.randomBytes(64, (err, buf) => {
